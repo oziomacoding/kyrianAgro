@@ -33,7 +33,7 @@ function Card() {
         {cardData.map((Card,index) =>(
             <div className="col-md-4 mb-5" data-aos="fade-up">
           <div className="card" >
-             <img src={Card.image} className="card-img-top" style={{width:'100%', height:'300px', objectFit:'cover'}} alt="..."/>
+             <img src={Card.image} className="card-img-top img-fluid" alt="..."/>
              <div className="card-body">
             <h4 className="card-title">{Card.title}</h4>
             <p className="card-text">{Card.content} <a href="/contact"className='text-danger text-decoration-none'>Book Now</a> </p>

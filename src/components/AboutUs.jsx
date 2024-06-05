@@ -12,19 +12,17 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className="container" style={{paddingTop:'80px', textAlign:'center'}}>
-        <div className="row">
-          <div className="col-md-6">
-            <img src={Servicespix} alt="" className='img-fluid' style={{width:'100%', height:'300px', objectFit:'cover'}}/>
-          </div>
-
-          <div className="col-md-6">
-            <h4>Welcome to Kyrian Agro Ventures, where our passion for sustainable agriculture meets innovation and excellence. Founded in 2024, we are dedicated to transforming the agricultural landscape by providing top-quality products and services that empower farmers, enrich communities, and promote environmental stewardship.</h4>
-            <div className="bg-red"></div>
-            
-          </div>
+      <div className="container pt-5">
+      <div className="row align-items-center">
+        <div className="col-md-6">
+          <img src={Servicespix} alt="Services" className="img-fluid" style={{ width: '100%', height: 'auto' }} />
+        </div>
+        <div className="col-md-6">
+          <h4>Welcome to Kyrian Agro Ventures, where our passion for sustainable agriculture meets innovation and excellence. Founded in 2024, we are dedicated to transforming the agricultural landscape by providing top-quality products and services that empower farmers, enrich communities, and promote environmental stewardship.</h4>
+          <div className="bg-red"></div>
         </div>
       </div>
+    </div>
 
       <div className="container pt-5" style={{textAlign:'center'}}>
         <div className="row">
@@ -40,16 +38,16 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="what-we-do pt-5" style={{ padding:'200px'}}>
+      <div className="container what-we-do py-5">
         <h2>WHAT WE DO</h2>
-        <ul style={{fontSize:'24px'}}>
+        <ul className="fs-5">
           <li>High-Quality Seeds and Fertilizers: We provide a diverse range of superior seeds and eco-friendly fertilizers designed to maximize crop yields and improve soil health.</li>
           <li>Innovative Farming Solutions: Our advanced agricultural technologies, including precision farming tools, irrigation systems, and drone monitoring, help farmers optimize their operations and achieve higher efficiency.</li>
           <li>Training and Support: We offer comprehensive training programs and expert support to educate farmers on best practices, sustainable techniques, and the latest industry trends</li>
           <li>Sustainable Practices: Committed to environmental sustainability, we promote practices that conserve resources, enhance biodiversity, and reduce the carbon footprint of farming activities.</li>
         </ul>
-        <h2 className='pt-5' >OUR VALUES</h2>
-        <ul style={{fontSize:'24px'}}>
+        <h2 className='pt-5'>OUR VALUES</h2>
+        <ul className="fs-5">
           <li>Integrity: We conduct our business with the highest ethical standards, ensuring transparency and fairness in all our dealings.</li>
           <li>Innovation: Embracing the latest technological advancements, we continuously seek innovative solutions to meet the evolving needs of the agricultural sector.</li>
           <li>Community: We believe in the power of community and work closely with farmers, partners, and stakeholders to create a supportive and collaborative agricultural ecosystem.</li>
