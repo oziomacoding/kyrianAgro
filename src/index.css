@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.btn-success{
+    background: #32CD32 !important;
+}
+.bg-success2{
+    background-color: #228B22;
+    width: 180px;
+    height: 6px;
+    border-radius: 8px;
+}
+.bg-dark{
+        background-color: black;
+        width: 180px;
+        height: 6px;
+        border-radius: 8px;
+}
+.text-success{
+    color: #32CD32 !important;
+}
+.bg-cover{
+    background: url('../src/assets/subheadingCover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 191px;
+    
+}
+.bg-dark2{
+    background-color: #4D4D4D;
+}
+.bg-dark3{
+    background-color: #D3D3D3;
+}
