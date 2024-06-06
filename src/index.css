@@ -44,3 +44,7 @@ h2{
 .bg-dark3{
     background-color: #D3D3D3;
 }
+.fixed-height {
+    height: 250px; /* Adjust this to the desired height */
+    object-fit: cover; /* cover, contain, or fill depending on your needs */
+  }

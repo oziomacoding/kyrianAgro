@@ -18,7 +18,7 @@ function Card() {
         {image:pics2,title:'Turkey', content:'Raised primarily for meat...'},
         {image:pics3,title:'Grains & Cereals', content:'This includes wheat, rice, corn(maize) and barley......'},
         {image:pics4,title:'Legumes', content:'This includes soybeans and peanuts...'},
-        {image:pics5,title:'Fruits', content:'This includes apples, citrus fruits(oranges,lemons) and grapes(for wine)...'},
+        {image:pics5,title:'Fruits', content:'This includes apples, orages and grapes(for wine)...'},
         {image:pics6,title:'Vegetables', content:'This includes potatoes, tomatoes and onions...'},
         {image:pics7,title:'Fiber Crops', content:'It includes cotton, jute and flax...'},
         {image:pics8,title:'Oilseeds', content:'This includes palm oil, sunflower and canola (rapeseed)...'},
@@ -30,24 +30,19 @@ function Card() {
   return (
     <>
       <div className="row">
-        {cardData.map((Card,index) =>(
-            <div className="col-md-4 mb-5" data-aos="fade-up">
-          <div className="card" >
-             <img src={Card.image} className="card-img-top img-fluid" alt="..."/>
-             <div className="card-body">
-            <h4 className="card-title">{Card.title}</h4>
-            <p className="card-text">{Card.content} <a href="/contact"className='text-danger text-decoration-none'>Book Now</a> </p>
-            
+        {cardData.map((Card, index) => (
+          <div className="col-md-4 mb-5" data-aos="fade-up" key={index}>
+            <div className="card h-100 d-flex flex-column">
+              <img src={Card.image} className="card-img-top img-fluid fixed-height" alt="..." />
+              <div className="card-body d-flex flex-column">
+                <h4 className="card-title">{Card.title}</h4>
+                <p className="card-text flex-grow-1">{Card.content}</p>
+                <a href="/contact" className="text-danger text-decoration-none mt-auto">Book Now</a>
+              </div>
+            </div>
           </div>
-        </div>
-
-        </div>
         ))}
-        
-
-        
-
-      </div>  
+      </div>
     </>
   )
 }

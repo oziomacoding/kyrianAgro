@@ -18,7 +18,7 @@ function AboutUs() {
           <img src={Servicespix} alt="Services" className="img-fluid" style={{ width: '100%', height: 'auto' }} />
         </div>
         <div className="col-md-6">
-          <h4>Welcome to Kyrian Agro Ventures, where our passion for sustainable agriculture meets innovation and excellence. Founded in 2024, we are dedicated to transforming the agricultural landscape by providing top-quality products and services that empower farmers, enrich communities, and promote environmental stewardship.</h4>
+          <h4>Welcome to Kyrian Agro Ventures, where our passion for sustainable agriculture meets innovation and excellence. While officially registered in 2024, we have been in business for five years, dedicated to transforming the agricultural landscape. Our top-quality products and services empower farmers, enrich communities, and promote environmental stewardship.</h4>
           <div className="bg-red"></div>
         </div>
       </div>
